@@ -1,0 +1,384 @@
+body {
+  background: linear-gradient(90deg, #035dd2 35%, rgb(4, 95, 191) 50%);
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.h1 {
+  padding: 2%;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: "Righteous";
+  margin: 0%;
+}
+
+.div {
+  box-sizing: border-box;
+}
+
+.container-principal {
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80vh;
+  color: white;
+  box-sizing: border-box;
+  -webkit-box-shadow: 1px 1px 122px 46px rgba(255, 255, 255, 0.32);
+  -moz-box-shadow: 1px 1px 122px 46px rgba(255, 255, 255, 0.32);
+}
+
+.border-blanco {
+  border-radius: 2.4%;
+}
+
+.contenedor-subtitulos-izquierdo > :first-child {
+  width: 100%;
+  font-size: 60px;
+  transition-property: background-color, transform;
+  transition-duration: 2s;
+  transition-timing-function: ease;
+}
+
+:hover.contenedor-subtitulos-izquierdo > :first-child {
+  color: rgb(17, 19, 17);
+  padding-top: 2%;
+  height: 113%;
+  width: 100%;
+  background-color: transparent;
+  background-image: url("tenis.jpg");
+  background-position: center;
+  background-size: cover;
+  filter: brightness(0.9);
+  transform: scale(1.1);
+}
+
+.sub-subtitulo {
+  justify-content: center;
+  width: 100%;
+  font-size: 32px;
+  height: 121%;
+  text-align: center;
+  border: solid white;
+  background-image: url("pelotadeTennis.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contenedor-subtitulos-izquierdo {
+  width: 80%;
+  height: 100%;
+}
+
+.contenedor-subtitulos-derecho {
+  width: 79%;
+  height: 100%;
+}
+
+.border-blanco {
+  display: flex;
+  font-size: 26px;
+  justify-content: center;
+  border: solid white 3px;
+  width: 90%;
+  height: 119%;
+}
+
+.border-blancoizquierdo-top {
+  border: solid white 3px;
+  width: 100%;
+  height: 20vh;
+  text-align: center;
+}
+
+h2 {
+  margin: 0;
+  padding-top: 5%;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+}
+
+.cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.flex {
+  display: flex;
+  height: 22.5vh;
+}
+
+.flex2 {
+  flex-basis: 49%;
+  height: 28vh;
+  width: 100vh;
+}
+
+.img1 {
+  width: 100%;
+  height: 100%;
+}
+
+.img2 {
+  width: 100%;
+  height: 100%;
+}
+
+.container-izquierdo {
+  border-style: solid;
+  flex-basis: 100%;
+  border: solid rgb(255, 254, 254) 3px;
+  border-radius: 2%;
+  height: 90vh;
+}
+
+.contenedorfoto {
+  border-radius: 2%;
+  border-color: white;
+  border-style: solid;
+  width: 36%;
+  height: 244%;
+}
+
+.container-derecho {
+  border-style: solid;
+  flex-basis: 100%;
+  border: solid rgb(255, 254, 254) 3px;
+  border-radius: 2%;
+  height: 88vh;
+}
+
+.container-bottom {
+  border-radius: 2%;
+  border: solid rgb(248, 12, 12) 3px;
+  position: relative;
+
+  justify-content: center;
+  bottom: -36.4%;
+  height: 15.4%;
+  width: 100%;
+}
+
+.img4 {
+  margin: 0;
+  position: relative;
+  right: -70%;
+  top: -29%;
+}
+
+.img3 {
+  position: relative;
+  top: -29%;
+  right: -18%;
+}
+
+.border-blancoderecho-top {
+  margin: 0%;
+  border: solid rgb(44, 224, 12) 3px;
+  width: 99%;
+  height: 20%;
+  border-style: solid;
+}
+
+.contenedorfoto2 {
+  position: relative;
+  left: 0%;
+  top: 0%;
+  border-radius: 3%;
+  border-color: white;
+  border-style: solid;
+  width: 34%;
+  height: 246%;
+}
+
+.border-blancoderecho {
+  font-size: 22px;
+  justify-content: center;
+  border: solid white 3px;
+  width: 99%;
+  height: 118%;
+}
+
+.border-blancoderecho2 {
+  border-radius: 2%;
+  border-color: rgb(38, 244, 28);
+  border-style: solid;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: column;
+  display: flex;
+  height: 100%;
+}
+
+.border-blancoderecho-bottom {
+  border-radius: 4%;
+  border-color: rgb(255, 251, 251);
+  border-style: solid;
+  position: relative;
+  top: 37%;
+  width: 100%;
+  height: 16%;
+  background-image: url("pelota.jpg");
+  background-position: center;
+  background-size: cover;
+  background-size: cover;
+}
+
+table {
+  position: sticky;
+  top: 0%;
+  flex-direction: column;
+  color: rgb(247, 247, 250);
+  border-collapse: collapse;
+  margin-left: 7.2%;
+  height: 45%;
+  font-size: 90%;
+  width: 87%;
+}
+
+thead {
+  top: 0%;
+  color: rgb(14, 244, 244);
+}
+
+th {
+  padding-left: 0%;
+  top: 0%;
+  background-color: rgb(14, 139, 235);
+}
+
+.horario {
+  font-style: normal;
+  font-size: 1.5rem;
+  margin: -3.5%;
+  color: #ffffff;
+  justify-content: center;
+}
+
+td {
+  top: 0%;
+  padding-left: 8%;
+  background-color: white;
+}
+
+td {
+  width: 20%;
+  color: #3a47d5;
+}
+
+p {
+  color: rgb(23, 23, 23);
+  display: flex;
+  justify-content: center;
+}
+
+.sub-subtitulo2 {
+  justify-content: center;
+  width: 100%;
+  height: 124%;
+  text-align: center;
+  border: solid rgb(245, 237, 237) 3px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition-property: background-image, transform;
+  transition-duration: 2s;
+}
+
+:hover.sub-subtitulo2 {
+  background-image: url("manopelota.jpg");
+  transform: scale(1.1);
+  font-size: 150px;
+}
+
+h3 {
+  margin: 0%;
+  padding: 11.6%;
+  justify-content: center;
+  font-size: 20.8px;
+}
+
+#leer {
+  position: relative;
+  top: 2%;
+  color: #4a96f3;
+  font-weight: bolder;
+}
+
+p:last-child {
+  color: rgb(27, 23, 23);
+  font-size: 18px;
+  margin: 5%;
+  text-align: center;
+  justify-content: space-around;
+}
+
+#p {
+  font-size: 24px;
+  margin-top: -17%;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+h6 {
+  font-size: 24px;
+  margin-top: 4%;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.contenedorfoto2:hover {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  filter: contrast(57%);
+}
+
+#privada {
+  color: rgb(253, 251, 250);
+  position: relative;
+  top: -76%;
+  left: 10%;
+  opacity: 0;
+}
+
+#privada::before,
+#privada:hover {
+  content: "";
+  opacity: 1;
+}
+
+.border-blancoderecho-top:hover {
+  filter: contrast(30%);
+  opacity: 0.9;
+}
+
+.sub-subtitulo2:hover {
+  filter: contrast(50%);
+  opacity: 1;
+}
+
+tr:nth-child(2n):hover {
+  color: white;
+  background-color: rgb(4, 250, 98);
+  opacity: 10;
+}
+
+tr:hover {
+  background-color: #0652d4;
+  color: rgb(233, 10, 10);
+  opacity: 0.5;
+}
+
+#v8:active {
+  background-color: white;
+  color: rgb(233, 10, 10);
+}
+
+td:hover {
+  color: white;
+  background-color: rgb(248, 9, 9);
+}
